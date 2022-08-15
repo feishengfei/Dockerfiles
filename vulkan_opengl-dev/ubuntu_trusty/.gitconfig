@@ -1,0 +1,30 @@
+[user]
+	name = jenkins 
+	email = xatest@twsz.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	sb = show-branch
+[color]
+	ui = auto
+	status = true
+	diff = true
+	branch = true
+	showbranch = true
+[status]
+	showUntrackedFiles = normal
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color "branch"]
+[http]
+	postBuffer = 24288000
+	followRedirects = true
+	sslVerify = false
+[url "http://source.codeaurora.cn"]
+	insteadOf = git://codeaurora.org
+[url "ssh://xa/mirror/openwrt"]
+	insteadOf = https://git.openwrt.org
